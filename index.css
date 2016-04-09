@@ -1,0 +1,821 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+
+
+body{
+	background:rgb(124,194,66);
+	background-size:100% 100%;
+	}
+
+#header{
+text-align:center;
+margin:20px 0px 0px 0px;
+position:absolute;
+left:415px;
+}
+#container_left{
+	position:absolute;
+	top:110px;
+	
+margin-left:80px;
+}
+
+#logo{text-align:center;}
+
+#logo_brain{
+	width:500px;
+
+}
+
+#img_pd{
+	width:250px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#logo_pd{
+	height:100px;
+}
+
+.link img{
+width:95px;
+border-radius:100%;
+margin-top:20px;
+cursor:pointer;
+}
+#link1{
+margin-left:10px;
+}
+
+#link1 img:hover{
+	width:97px;
+box-shadow: 0px 0px 20px white;
+-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+
+}
+
+#link2 img:hover{
+	width:97px;
+box-shadow: 0px 0px 20px white;
+-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+}
+
+#link3 img:hover{
+	width:97x;
+box-shadow: 0px 0px 20px white;
+-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+}
+
+#link4 img:hover{
+	width:97px;
+box-shadow: 0px 0px 20px white;
+-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+}
+
+
+#link2{
+margin-left:90px;
+}
+#link3{
+margin-left:10px;
+}
+#link4{
+margin-left:90px;
+}
+#logo_brainex{
+
+height:100px;
+}
+#container_center{
+	position:absolute;
+text-align:center;
+font-family:helvetica;
+margin-left:400px;
+top:100px;
+}
+
+#center_top{
+	position:absolute;
+	left:25px;
+}
+
+#gearup{
+font-size:40px;}
+#powered{
+font-size:25px;}
+
+#rigt_top{
+	position:absolute;
+left:1070px;
+top:150px;
+}
+
+#right_bottom{
+position:absolute;
+left:1000px;
+top:390px;
+
+}
+
+#containes-top{
+	position:absolute;
+	left:1000px;
+}
+
+#rigt_top{
+margin-bottom:60px;
+}
+
+
+#sponsor{
+border:2px solid black;
+width:316px;
+height:140;
+position:absolute;
+left:-20px;
+bottom:-170px;
+}
+
+#register,#login{
+	border:5px solid black;
+	font:5px;
+	background:rgb(243,235,146);
+	border-radius:25px;
+	width:175px;
+	height:50px;
+	outline:none;
+	cursor:pointer;
+	font:20px tahoma;
+	font-weight:bold;
+	
+}
+
+#register:hover,#login:hover{
+	text-decoration:underline;
+}
+
+	
+	/*--------------------------------------copy from here----------------------------------------------------------------------*/ 
+	
+	
+
+#center_bottom{
+	position:absolute;
+	top:295px;
+	text-align:none;
+}
+	
+
+	
+.gear01{
+	position:absolute;	
+	width:60px;
+	bottom:-35px;
+	left:190px;
+	  -webkit-animation-name: rev_spin;
+    -webkit-animation-duration: 3000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: rev_spin;
+    -moz-animation-duration: 3000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: rev_spin;
+    -ms-animation-duration: 3000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: rev_spin;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	}
+	
+	.gear26{
+	position:absolute;	
+	width:40px;
+	bottom:-50px;
+	left:260px;
+	  -webkit-animation-name: rev_spin;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: rev_spin;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: rev_spin;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: rev_spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	}
+	
+.gear02{
+	width:80px;
+position:absolute;	
+	bottom:-110px;
+	left:290px;
+	
+	  -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.gear012{
+	width:110px;
+position:absolute;	
+	bottom:-154px;
+	left:366px;
+	
+	 -webkit-animation-name: rev_spin;
+    -webkit-animation-duration: 5500ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: rev_spin;
+    -moz-animation-duration: 5500ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: rev_spin;
+    -ms-animation-duration: 5500ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: rev_spin;
+    animation-duration: 5500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.gear011{
+	width:250px;
+position:absolute;	
+	bottom:-241px;
+	left:190px;
+	
+	
+}
+
+.gear08{
+	width:30px;
+position:absolute;	
+	bottom:-130px;
+	left:250px;
+	
+	 -webkit-animation-name: rev_spin;
+    -webkit-animation-duration: 1500ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: rev_spin;
+    -moz-animation-duration: 1500ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: rev_spin;
+    -ms-animation-duration: 1500ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: rev_spin;
+    animation-duration:1500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.gear04{
+	width:110px;
+position:absolute;	
+	bottom:-140px;
+	left:150px;
+	
+	-webkit-animation-name: spin;
+    -webkit-animation-duration: 5500ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 5500ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 5500ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 5500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+.gear09{
+	width:75px;
+position:absolute;	
+	bottom:-200px;
+	left:125px;
+	
+	
+	 -webkit-animation-name: rev_spin;
+    -webkit-animation-duration: 3750ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: rev_spin;
+    -moz-animation-duration: 3750ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: rev_spin;
+    -ms-animation-duration: 3750ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: rev_spin;
+    animation-duration: 3750ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.gear010{
+	width:155px;
+position:absolute;	
+	bottom:-240px;
+	left:-10px;
+	
+
+}
+
+.gear07{
+	width:40px;
+position:absolute;	
+	bottom:-155px;
+	left:80px;
+	
+	-webkit-animation-name: spin;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.gear03{
+	width:50px;
+position:absolute;	
+	bottom:-120px;
+	left:100px;
+	
+	 -webkit-animation-name: rev_spin;
+    -webkit-animation-duration: 2500ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: rev_spin;
+    -moz-animation-duration: 2500ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: rev_spin;
+    -ms-animation-duration: 2500ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: rev_spin;
+    animation-duration: 2500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.gear06{
+	width:80px;
+position:absolute;	
+	bottom:-150px;
+	left:0px;
+	
+	-webkit-animation-name: rev_spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: rev_spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: rev_spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: rev_spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.gear20{
+	width:110px;
+position:absolute;	
+	bottom:-230px;
+	left:440px;
+	
+	 -webkit-animation-name: spin;
+    -webkit-animation-duration: 5500ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 5500ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 5500ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration:5500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.gear21{
+	width:40px;
+position:absolute;	
+	bottom:-240px;
+	left:140px;
+	
+	 -webkit-animation-name: spin;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration:2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.gear30{
+	width:40px;
+position:absolute;	
+	bottom:-217px;
+	left:405px;
+	
+	 -webkit-animation-name: rev_spin;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: rev_spin;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: rev_spin;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: rev_spin;
+    animation-duration:2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.gear31{
+	width:60px;
+position:absolute;	
+	bottom:-47px;
+	left:406px;
+	
+	 -webkit-animation-name: spin;
+    -webkit-animation-duration: 3000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 3000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 3000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+.gear33{
+	width:40px;
+position:absolute;	
+	bottom:-240px;
+	left:530px;
+	
+	 -webkit-animation-name: rev_spin;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: rev_spin;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: rev_spin;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: rev_spin;
+    animation-duration:2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.gear35{
+	width:40px;
+	position:absolute;	
+	bottom:-125px;
+	left:500px;
+	
+	 -webkit-animation-name: rev_spin;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: rev_spin;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: rev_spin;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: rev_spin;
+    animation-duration:2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#img_lastgear{
+	width:120px;
+position:absolute;	
+	bottom:-220px;
+	left:240px;	
+		 -webkit-animation-name: spin;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-timing-function: ease-in;
+	
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+	-moz-animation-direction: alternate;
+	-moz-animation-timing-function: ease-out;
+	-moz-animation-timing-function: ease-in;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+	-ms-animation-direction: alternate;
+	-ms-animation-timing-function: ease-out;
+	-ms-animation-timing-function: ease-in;
+
+    animation-name: spin;
+    animation-duration:2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	animation-direction: alternate;
+	animation-timing-function: ease-out;
+	animation-timing-function: ease-in;
+}
+
+  @-ms-keyframes spin { 
+        from { 
+            -ms-transform: rotate(0deg); 
+        } to { 
+            -ms-transform: rotate(360deg); 
+        }
+    }
+    @-moz-keyframes spin { 
+        from { 
+            -moz-transform: rotate(0deg); 
+        } to { 
+            -moz-transform: rotate(360deg); 
+        }
+    }
+    @-webkit-keyframes spin { 
+        from { 
+            -webkit-transform: rotate(0deg); 
+        } to { 
+            -webkit-transform: rotate(360deg); 
+        }
+    }
+    @keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+    }
+	
+	@-ms-keyframes rev_spin { 
+        from { 
+            -ms-transform: rotate(0deg); 
+        } to { 
+            -ms-transform: rotate(-360deg); 
+        }
+    }
+    @-moz-keyframes rev_spin { 
+        from { 
+            -moz-transform: rotate(0deg); 
+        } to { 
+            -moz-transform: rotate(-360deg); 
+        }
+    }
+    @-webkit-keyframes rev_spin { 
+        from { 
+            -webkit-transform: rotate(0deg); 
+        } to { 
+            -webkit-transform: rotate(-360deg); 
+        }
+    }
+    @keyframes rev_spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(-360deg); 
+        }
+    }
+	
+	 @keyframes rev_spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(-360deg); 
+        }
+    }
+	
+	#title_right{
+		
+		padding:10px;
+		background:linear-gradient(-90deg,white,gray);
+		border-radius:20px;
+		font:20px tahoma;
+		font-weight:bold;
+		opacity:0;
+		/*display:none;*/
+	}
+	
+	#title_right_right{
+		
+		padding:10px;
+		background:linear-gradient(-90deg,white,gray);
+		border-radius:20px;
+		font:20px tahoma;
+		font-weight:bold;
+		opacity:0;
+		/*display:none;*/
+	}
+
+.span_events{
+	position:absolute;
+		top:45px;
+	    left:140px;
+}
+	
+	.span_timeline{
+	position:absolute;
+		top:165px;
+	    left:-40px;
+}
+
+.span_rule{
+	position:absolute;
+		top:285px;
+	    left:140px;
+}
+
+.span_contact{
+	position:absolute;
+		top:405px;
+	    left:-40px;
+}
+	
+	
+@keyframes hover_shift {
+    from {left:70px;}
+    to {left: 110px;}
+}
+
+@keyframes hover_shift_left {
+    from {left:-20px;}
+    to {left: -60px;}
+}
+
+@keyframes show {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+#img_bulb:hover + #title_right{
+	animation-duration:1000ms;
+	animation-name:hover_shift,show;
+	transform:translate(20px);
+}
+
+#img_timeline:hover + #title_right_right{
+	animation-duration:1000ms;
+	animation-name:hover_shift_left,show;
+	transform:translate(20px);
+}
+
+#img_rule:hover + #title_right{
+	animation-duration:1000ms;
+	animation-name:hover_shift,show;
+	transform:translate(20px);
+}
+
+#img_contact:hover + #title_right_right{
+	animation-duration:1000ms;
+	animation-name:hover_shift_left,show;
+	transform:translate(20px);
+}
